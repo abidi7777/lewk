@@ -10,6 +10,9 @@
     "style-lint": "npx stylelint './lib/**/*.css'",
     "prepare": "husky install"
   },
+  "files": [
+    "./dist/style.css"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abidi7777/lewk.git"
