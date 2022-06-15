@@ -11,4 +11,10 @@
       @apply scale-150;
     }
   }
+
+  &:active {
+    > span {
+      @apply scale-75;
+    }
+  }
 }
