@@ -5,7 +5,7 @@
   "scripts": {
     "build": "vite build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -o ./docs",
     "js-lint": "eslint './lib/**/*.js'",
     "style-lint": "npx stylelint './lib/**/*.css'",
     "prepare": "husky install"
