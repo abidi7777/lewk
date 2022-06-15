@@ -16,6 +16,8 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - name: publish
-        run: npm pubish
+        run: |
+          npm ci
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
