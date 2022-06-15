@@ -1,4 +1,4 @@
-@import "./components/button.pcss";
+@import "./components/button.css";
 
 @tailwind base;
 @tailwind components;
