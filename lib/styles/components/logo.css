@@ -1,18 +1,22 @@
 .logo {
   @apply w-12 h-12 flex items-center justify-center bg-gray-900 text-slate-50
-    text-2xl select-none cursor-pointer shadow-xl;
+    text-2xl select-none cursor-pointer shadow-xl transition-all duration-300 ease-in-out;
 
   > span {
-    @apply transition-transform duration-300 ease-in-out;
+    @apply transition-all duration-300 ease-in-out;
   }
 
   &:hover {
+    @apply scale-105;
+
     > span {
       @apply scale-150;
     }
   }
 
   &:active {
+    @apply scale-90;
+
     > span {
       @apply scale-75;
     }
