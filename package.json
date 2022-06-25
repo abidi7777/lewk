@@ -1,6 +1,6 @@
 {
   "name": "lewk",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Theme for my projects",
   "scripts": {
     "build": "vite build",
