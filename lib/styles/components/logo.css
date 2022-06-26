@@ -1,6 +1,6 @@
 .logo {
   @apply w-12 h-12 flex items-center justify-center bg-gray-900 text-slate-50
-    text-2xl select-none cursor-pointer shadow-xl transition-all duration-300 ease-in-out;
+    text-2xl select-none cursor-pointer shadow-xl transition-all duration-300 ease-in-out rounded-lg;
 
   > span {
     @apply transition-all duration-300 ease-in-out;
